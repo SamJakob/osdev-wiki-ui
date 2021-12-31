@@ -41,6 +41,11 @@ body {
   word-wrap: normal;
 }
 
+.navbar-brand .navbar-item:first-child .navbar-logo {
+  height: calc(var(--navbar-height) * 0.4);
+  display: inline-block;
+}
+
 .navbar-brand .navbar-item:first-child :not(:last-child) {
   padding-right: 0.375rem;
 }
